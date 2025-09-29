@@ -1,0 +1,173 @@
+
+
+.skill-sections{
+     margin: 0 10px;
+}
+
+.skills-heading{
+     margin-top: 60px;
+}
+
+.skill-sections{
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   padding: 10px;
+   margin:40px 60px;
+   border-radius: 10px;
+}
+
+.tech-stack-1,
+.tech-stack-2{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   margin-top: 50px;
+   padding: 20px 10px;
+}
+.tech-stack-2{
+     margin-bottom: 25px;
+}
+
+.tech-stack-1 img ,
+.tech-stack-2 img{
+     background-color: #f5fafe;
+     padding:15px;
+     width: 85px;
+     height: 85px;
+     border-radius: 10px;
+}
+
+.tech-stack-1 img:hover{
+     background-color: aliceblue;
+     transform: scale(1.1);
+     transition: .2s;
+     cursor: pointer;
+}
+
+.tech-stack-2 img:hover{
+     background-color: aliceblue;
+     transform: scale(1.1);
+     transition: .2s;
+     cursor: pointer;
+}
+
+
+
+.skill-sections{
+     margin: 0 10px;
+}
+
+.skills-heading{
+     margin-top: 60px;
+}
+
+.skill-sections{
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   padding: 10px;
+   margin:40px 60px;
+   border-radius: 10px;
+}
+
+.tech-stack-1,
+.tech-stack-2{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   margin-top: 50px;
+   padding: 20px 10px;
+}
+.tech-stack-2{
+     margin-bottom: 25px;
+}
+
+.tech-stack-1 img ,
+.tech-stack-2 img{
+     background-color: #f5fafe;
+     padding:15px;
+     width: 85px;
+     height: 85px;
+     border-radius: 10px;
+}
+
+.tech-stack-1 img:hover{
+     background-color: aliceblue;
+     transform: scale(1.1);
+     transition: .2s;
+     cursor: pointer;
+}
+
+.tech-stack-2 img:hover{
+     background-color: aliceblue;
+     transform: scale(1.1);
+     transition: .2s;
+     cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+    .skill-sections {
+        margin: 30px 20px;
+        padding: 15px;
+    }
+
+    .tech-stack-1,
+    .tech-stack-2 {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 30px;
+        padding: 15px 5px;
+    }
+
+    .tech-stack-1 img,
+    .tech-stack-2 img {
+        width: 70px;
+        height: 70px;
+        margin: 10px;
+        padding: 10px;
+    }
+}
+
+/* For mobile phones */
+@media (max-width: 768px) {
+    .skills-heading {
+        font-size: 1.5rem;
+        margin-top: 40px;
+    }
+
+    .tech-stack-1 img,
+    .tech-stack-2 img {
+        width: 60px;
+        height: 60px;
+        padding: 8px;
+    }
+
+    .skill-sections {
+        margin: 20px 10px;
+        padding: 10px;
+    }
+}
+
+/* For very small mobile screens */
+@media (max-width: 480px) {
+    .skills-heading {
+        font-size: 1.3rem;
+        margin-top: 30px;
+    }
+
+    .tech-stack-1,
+    .tech-stack-2{
+        display: flex;
+        flex-wrap: wrap;
+    } 
+
+    .tech-stack-1 img,
+    .tech-stack-2 img {
+        width: 50px;
+        height: 50px;
+        padding: 7px;
+        margin: 10px;
+    }
+    
+    .skill-sections {
+        margin: 15px 5px;
+        padding: 8px;
+    }
+}

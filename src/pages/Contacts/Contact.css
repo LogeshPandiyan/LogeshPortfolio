@@ -1,0 +1,145 @@
+.contact-full-information{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+.contact-details{
+     padding: 30px;
+     width: 600px;
+     height: 320px;
+     border-radius: 5px;
+     box-shadow: #32325d40 0px 6px 12px -2px, #0000004d 0px 3px 7px -3px;
+}
+
+.text-input{
+     width: 540px;
+     background-color: #f1f6fa;
+     padding: 10px;
+}
+.text-area{
+     height: 100px;
+     width: 540px;
+     background-color: rgb(240, 244, 248);
+     padding: 10px;
+}
+
+input[type='text']:focus{
+     border: 2px solid blue;
+     transition: .5s;
+}
+.send-btn{
+     width: 540px;
+}
+
+.contact-social-links{
+     font-size:25px;
+     background-color:#f1f6fa ;
+     padding: 10px;
+     border-radius: 50%;
+     width: 45px;
+     margin-top: 10px;
+     
+}
+
+.contact-social-links:hover{
+     cursor: pointer;
+     background-color: aliceblue;
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.social-anchor{
+     text-decoration: none;
+     color: gray;
+}
+
+.social-anchor:hover{
+     color: blue;
+}
+
+
+@media (max-width: 1024px) {
+    .contact-full-information {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .contact-details {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .text-input, .text-area, .send-btn {
+        width: 100%;
+    }
+
+    .contact-info {
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .contact-social-links {
+        font-size: 22px;
+        width: 40px;
+        height: 40px;
+        padding: 8px;
+    }
+
+    .social-anchor {
+        font-size: 0.9rem;
+    }
+}
+
+/* For mobile phones */
+@media (max-width: 768px) {
+    .contact-details {
+        padding: 15px;
+    }
+
+    .contact-social-links {
+        font-size: 20px;
+        width: 35px;
+        height: 35px;
+        padding: 6px;
+    }
+
+    .social-anchor {
+        font-size: 0.85rem;
+    }
+
+    .contact-heading {
+        font-size: 1.5rem;
+    }
+
+    .contact-full-information {
+        gap: 15px;
+    }
+}
+
+/* For very small mobile screens */
+@media (max-width: 480px) {
+    .contact-details {
+        padding: 10px;
+    }
+
+    .text-input, .text-area, .send-btn {
+        width: 100%;
+        font-size: 0.85rem;
+    }
+
+    .contact-social-links {
+        font-size: 18px;
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+    }
+
+    .social-anchor {
+        font-size: 0.8rem;
+    }
+
+    .contact-heading {
+        font-size: 1.3rem;
+    }
+}

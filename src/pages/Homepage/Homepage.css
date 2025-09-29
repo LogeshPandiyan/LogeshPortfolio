@@ -5,7 +5,13 @@
      margin: 150px 100px ;
      justify-content: space-around;
 }
+.home-content{
+     margin-left: -100px;
+}
 
+.my-career{
+     margin-left: -15px;
+}
 .home-content h1{
      font-size: 55px;
      font-weight: bold;
@@ -15,15 +21,18 @@
      font-size: 20px;
      margin-top: 5px;
      padding: 15px 10px;
-     background-color: #fbfbfb;
+     background-color: #f5fafe;
      border-radius: 50%;
      width: 50px;
 }
 .social-icons:hover{
-     background-color: #ebebeb;
+     background-color: rgb(224, 239, 252);
      cursor: pointer;
      transition:.4s;
      transform: translateY(-5px);
+}
+.profile-img{
+     margin-right: -80px;
 }
 .my-profile{
      border: 2px solid gray;

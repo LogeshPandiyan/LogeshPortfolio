@@ -8,16 +8,19 @@ export const Home = () => {
      const myName ='LOGESH';
   return (
      <>
-     <div className="home-container">
+     <div className="home-container " id='home'>
 
           <div className="home-content">
-               <h3 className='hi text-secondary'>Hi👋 Buddy's I'm</h3>
+               <h3 className='hi text-secondary mb-3' id='go-to-top'>Hi👋 Buddy's I'm</h3>
 
                <h1 className='my-name'>{myName} <span className='text-primary'>P</span></h1><br />
 
                <h5 className='my-role text-secondary'>
-                FrontEndDeveloper | MERN StackDeveloper | Designer |<br />
-                React.js Developer  | Learner 
+               <div className='my-career mb-1'>
+               Full Stack Developer | Creative Web Designer | </div><br />
+               <div className="my-career">
+               Passionate Learner | Tech Explorer
+               </div>
                 </h5><br />
 
                 <div className="super-btns">
@@ -48,6 +51,11 @@ export const Home = () => {
                 <a className='social-anchor-tag' 
                    href="mailto:logeshlp25@gmail.com">
                   <i className="social-icons fa-solid fa-envelope ms-4"></i>
+               </a>
+
+                <a className='social-anchor-tag' 
+                   href="tel:7695870451">
+                  <i className="social-icons fa-solid fa-phone ms-4"></i>
                </a>
                 </div>
 

@@ -1,0 +1,7 @@
+body{
+     font-family: "Inter", sans-serif;
+}
+/* global CSS file or App.css */
+html {
+  scroll-behavior: smooth;
+}

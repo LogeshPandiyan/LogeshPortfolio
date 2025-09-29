@@ -31,8 +31,8 @@ function Navbar() {
             <li><a href="#home">Home           </a></li>
             <li><a href="#about">About        </a></li>
             <li><a href="#skills">Skills      </a></li>
-            <li><a href="#education">Education</a></li>
             <li><a href="#projects">Projects  </a></li>
+            <li><a href="#education">Education</a></li>
             <li><a href="#contact">Contact    </a></li>
             <i className="fa-regular fa-moon dark-mode-icon mb-3 ms-3 me-4"></i>
           </ul>
@@ -57,12 +57,12 @@ function Navbar() {
           </div>
 
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Education</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
             <i className="side-moon fa-regular fa-moon dark-mode-icon mb-3 ms-3 me-4"></i>
           </ul>
         </nav>

@@ -55,7 +55,8 @@ body::selection{
   color: #213547;
 }
 
-.nav-section ul li a:hover{
+
+.nav-section ul li:hover a{
   color: blue;
 }
 .dark-mode-icon{
@@ -136,7 +137,11 @@ body::selection{
   color: black;
 }
 
-.side-menu ul li a:hover{
+.side-menu.side-moon{
+  padding: 10px;
+}
+
+.side-menu ul li:hover a{
   color: blue;
 }
 

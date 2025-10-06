@@ -54,7 +54,7 @@ body{
     }
 }
 
-/* For mobile phones */
+
 @media (max-width: 768px) {
     .about-summary {
         margin-top: 20px;
@@ -82,7 +82,7 @@ body{
     }
 }
 
-/* For very small mobile screens */
+
 @media (max-width: 480px) {
     .about-summary, .my-work {
         padding: 10px;
@@ -102,3 +102,4 @@ body{
         line-height: 22px;
     }
 }
+    

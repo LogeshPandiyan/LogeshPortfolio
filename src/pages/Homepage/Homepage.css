@@ -10,7 +10,8 @@
 }
 
 .my-career{
-     margin-left: -15px;
+     margin-left: -18px;
+     margin-top: 10px;
 }
 .home-content h1{
      font-size: 55px;
@@ -54,7 +55,6 @@
      color: black;
 }
 
-
 @media screen and (min-width:375px) and (max-width:768px) {
       .home-container{
           display: flex;
@@ -82,7 +82,7 @@
      }
      .home-content .my-role{
           font-size: 17px;
-          margin-left: 50px;
+          margin-left: 70px;
           word-spacing: 3px;
           line-height: 30px;
      }
@@ -132,7 +132,7 @@
      }
 }
 
-/* Tablet device  */
+
  @media screen and (min-width:768px) and (max-width:1023px) {
       .my-profile{
           width: 250px;
@@ -168,7 +168,7 @@
      }
      
 }
-/* Mobile Small device */
+
 @media screen and (max-width:320px) {
      .home-container{
           display: flex;
@@ -221,5 +221,4 @@
      }
      
 }
-
 

@@ -16,16 +16,23 @@ export const Home = () => {
                <h1 className='my-name'>{myName} <span className='text-primary'>P</span></h1><br />
 
                <h5 className='my-role text-secondary'>
-               <div className='my-career mb-1'>
-               Full Stack Developer | Creative Web Designer | </div><br />
-               <div className="my-career">
+
+               <div className='my-career mb-1 '>
+               Full Stack Developer |  Creative Web Designer |
+               </div>
+
+               <div className='my-career mb-1 '>
+               Aspiring AI/ML Developer | Data Enthusiast | 
+               </div>
+
+               <div className="my-career ">
                Passionate Learner | Tech Explorer
                </div>
                 </h5><br />
 
                 <div className="super-btns">
-                <button className='get-btn btn btn-primary p-2 text-center'>
-                    Get in touch 
+                <button className='get-btn btn btn-primary p-2 text-center '>
+                    Hire Me 
                     <i className="right-arrow text-center fa-solid fa-arrow-right"></i>
              </button>
 

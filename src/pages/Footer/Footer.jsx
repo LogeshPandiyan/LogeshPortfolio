@@ -11,7 +11,7 @@ const Footer = () => {
     </div>
 
     <div className="footer-social-links">
-       <a href="mailto:logeshlp25@gmail.com" className='text-secondary'>
+       {/* <a href="mailto:logeshlp25@gmail.com" className='text-secondary'>
         <i class="footer-social-links fa-solid fa-envelope me-4"></i>
       </a>
 
@@ -26,7 +26,7 @@ const Footer = () => {
        <a href="https://github.com/LogeshPandiyan" className='text-secondary'>
         <i class="footer-social-links fa-brands fa-github"></i>
       </a>
-       
+        */}
        <a href="#" >
         <i class="fa-solid fa-arrow-up ms-5 text-white me-5"></i>
       </a>

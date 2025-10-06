@@ -7,8 +7,6 @@ const Projects = () => {
      const pro = 'Projects ';
      const pro1 ='Music Recommendation System By Facial Emotion';
      const pro2 ='Online Educational Tutorial Platform';
-     const pro3 ='E-Commerce Web Application Platform';
-
 
   return (
     <>
@@ -28,7 +26,7 @@ const Projects = () => {
           <h4 className='pro-title ms-3'><b>{pro1}</b> </h4>
 
           <p className='pro-description text-secondary mt-3'>
-             A real-time music Automatically recommend songs based on the user’s facial expression 
+            Developed a real-time music Automatically recommend songs based on the user’s facial expression 
              (happy, sad, angry) detected via webcam.</p>
 
           <h5  className='mt-4 mb-3'>Technologies Used</h5>  
@@ -58,12 +56,12 @@ const Projects = () => {
 {/*  */}
 
 
-
+ 
         <div className="pro mt-4">
           <h4 className='pro-title ms-3'><b>{pro2}</b></h4>
 
           <p className='pro-description text-secondary mt-3'>
-            Build a MERN stack web platform where users can learn coding tutorials, practice examples,
+           Project have been working a MERN stack web platform where users can learn coding tutorials, practice examples,
              and run code snippets.</p>
 
  
@@ -94,36 +92,41 @@ const Projects = () => {
      
      
         <div className="pro mt-4">
-          <h4 className='pro-title ms-3'><b>{pro3}</b></h4>
+        <h4 className='text-center mb-3'>
+          Some Cool Projects</h4>
 
-          <p className='pro-description text-secondary mt-3'>
-            Build a MERN stack web platform where users can learn coding tutorials, practice examples,
-             and run code snippets.</p>
+          <div className="cool-pro project-1">
+               <p className='pro-title'>CRUD Operations
+               <a href="https://user-crud-app-fawn.vercel.app/"
+               className='ms-5'>Visit here</a>
+               </p>
+          </div>
 
- 
-          <h5 className='mt-4 mb-3'>Technologies Used</h5>  
-          <span className='Python ms-3'>React.js</span>
-          <span className='jest ms-3'>Jest</span>
-          <span className='NumPy ms-3'>Bootstrap</span><br /><br />
-          <span className='CNN ms-3'>Node.js</span>
-          <span className='HTML ms-3'>Express.js</span>
-          <span className='CSS ms-3'>MongoDB</span>
+            <div className="cool-pro project-2">
+               <p className='pro-title'>Dictionary App
+               <a href="https://dictionary-website-henna.vercel.app/"
+               className='ms-5'>Visit here</a>
+               </p>
+          </div>
 
-          <h5 className='mt-4'>Key Features</h5>
-          <ul>
-               <li className='text-secondary'>User Authentication & Profiles</li>
-               <li className='text-secondary'>Discussion Forum / Q&A Section</li>
-               <li className='text-secondary'>Encourage users to learn more</li>
-               <li className='text-secondary'>Add/update new content dynamically</li>
-               <li className='text-secondary'>Better user experience with theme</li>
-               <li className='text-secondary'>Run HTML, CSS, JS instantly in-browser</li>
-          </ul>
-
-          <button type='button'
-          className='btn btn-primary project-link-btn'>
-               <NavLink to="https://github.com/LogeshPandiyan"
-               className={'text-white'}>View project</NavLink>
-          </button>
+           <div className="cool-pro project-3">
+               <p className='pro-title'>To-D-List App
+               <a href="https://to-do-list-omega-two-76.vercel.app/"
+               className='ms-5'>Visit here</a>
+               </p>
+          </div>
+           <div className="cool-pro project-4">
+               <p className='pro-title'>Digital Wall Clock
+               <a href="https://logeshpandiyan.github.io/Clock/"
+               className='ms-5'>Visit here</a>
+               </p>
+          </div>
+           <div className="cool-pro project-4">
+               <p className='pro-title'>Login Page
+               <a href="https://login-page-ten-sage.vercel.app/"
+               className='ms-5'>Visit here</a>
+               </p>
+          </div>
      </div>
 
      </section>

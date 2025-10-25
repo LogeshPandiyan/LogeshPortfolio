@@ -2,6 +2,10 @@ import './Contact.css'
 
 
 const Contact = () => {
+
+    const sendMessage =()=>{
+        alert('Your message submitted.!')
+        }
   return (
     <>
     <div className="contact-container mt-5" >
@@ -28,7 +32,12 @@ const Contact = () => {
                             ></textarea> <br />              
 
                <button type='button'
-               className='send-btn btn btn-primary'>send message <span><i class="fa-regular fa-paper-plane"></i></span></button>       
+               className='send-btn btn btn-primary'
+               onClick={sendMessage}
+               >send message <span>
+                   <i class="fa-regular fa-paper-plane"></i>
+                   </span>
+                   </button>
                </form>
           </div>
 

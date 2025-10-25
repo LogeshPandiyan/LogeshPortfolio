@@ -55,6 +55,10 @@ body::selection{
   color: #213547;
 }
 
+.download-resume-link{
+  text-decoration:none;
+}
+
 
 .nav-section ul li:hover a{
   color: blue;

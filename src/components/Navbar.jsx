@@ -13,6 +13,12 @@ function Navbar() {
 
   const myFullName ='LOGESH';
 
+// dark modem= msg
+
+const darkModeMsg =()=> {
+    alert('Dark Mode Can not enable right now.!!')
+    alert(' But I will Provide Soon.!')
+    }
   return (
     <>
       <div className='container'>
@@ -34,7 +40,8 @@ function Navbar() {
             <li><a href="#projects">Projects  </a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#contact">Contact    </a></li>
-            <i className="fa-regular fa-moon dark-mode-icon mb-3 ms-3 me-4"></i>
+         <i className="fa-regular fa-moon dark-mode-icon mb-3 ms-3 me-4"
+         onClick={darkModeMsg}></i>
           </ul>
         </nav>
 
@@ -63,7 +70,7 @@ function Navbar() {
             <li><a href="#projects">Projects</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#contact">Contact</a></li>
-            <i className="side-moon fa-regular fa-moon dark-mode-icon mb-3 ms-3 me-4"></i>
+{/*             <i className="side-moon fa-regular fa-moon dark-mode-icon mb-3 ms-3 me-4"></i> */}
           </ul>
         </nav>
 

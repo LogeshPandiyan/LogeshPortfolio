@@ -80,7 +80,7 @@ const Projects = () => {
                <li className='text-secondary'>Encourage users to learn more</li>
                <li className='text-secondary'>Add/update new content dynamically</li>
                <li className='text-secondary'>Better user experience with theme</li>
-               <li className='text-secondary'>Run HTML, CSS, JS instantly in-browser</li>
+               <li className='text-secondary'>Run HTML, CSS, JS in-browser</li>
           </ul>
 
           <button type='button'

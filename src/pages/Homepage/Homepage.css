@@ -35,6 +35,10 @@
 .profile-img{
      margin-right: -80px;
 }
+.my-profile:hover{
+     transform:scale(1.1);
+     transition:.5s;
+}
 .my-profile{
      border: 2px solid gray;
      padding: 15px;
@@ -54,6 +58,7 @@
 .social-icons-group .social-anchor-tag{
      color: black;
 }
+
 
 @media screen and (min-width:375px) and (max-width:768px) {
       .home-container{
@@ -106,7 +111,7 @@
           justify-content: space-around;
           margin-left: 20px;
      }
-     
+
 }
 
 @media screen and (min-width:425px) and (max-width:767px){
@@ -166,7 +171,7 @@
      .hi{
           text-align: center;
      }
-     
+
 }
 
 @media screen and (max-width:320px) {
@@ -175,6 +180,9 @@
           flex-direction: column-reverse;
           width: 85%;
           margin: 10px;
+     }
+     .my-career{
+          text-align:center;
      }
      .my-profile{
           width: 250px;
@@ -219,6 +227,6 @@
           justify-content: space-around;
           margin-left: 20px;
      }
-     
+
 }
 

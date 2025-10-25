@@ -18,7 +18,7 @@
 @media (max-width: 1024px) {
     .footer-social-link {
         flex-direction: column;
-        justify-content: center;
+        justify-content:center;
         align-items: center;
         height: auto;
         padding: 15px 0;

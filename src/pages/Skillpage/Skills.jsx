@@ -9,7 +9,7 @@ import expressjs from '../../assets/Express.png'
 import python from '../../assets/python.png'
 import mySql from '../../assets/MySQL.png'
 import VSCode from '../../assets/VS Code.png'
-import GitHub from '../../assets/GitHub.png'
+import MongoDB from '../../assets/MongoDB.png'
 import Figma from '../../assets/Figma.png'
 import './Skills.css'
 
@@ -36,7 +36,7 @@ const Skills = () => {
         <img src={python} alt="python"       title='Python'    />
         <img src={mySql} alt="mySql"         title='MySql'   />
         <img src={Figma} alt="mySql"         title='Figma'   />
-        <img src={GitHub} alt="mySql"         title='GitHub'   />
+        <img src={MongoDB} alt="mySql"         title='GitHub'   />
 
      </div>
 </section>

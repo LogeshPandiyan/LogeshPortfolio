@@ -1,5 +1,6 @@
 import logo from './profile.jpeg'
 import './Homepage.css'
+import myResume from '../../../public/LOGESH_RESUME_1.pdf'
 
 
 
@@ -18,11 +19,11 @@ export const Home = () => {
                <h5 className='my-role text-secondary'>
 
                <div className='my-career mb-1 '>
-               Full Stack Developer |  Creative Web Designer |
+               Front End Developer |  Full Stack Web Developer|
                </div>
 
                <div className='my-career mb-1 '>
-               Aspiring AI/ML Developer | Data Enthusiast | 
+               Aspiring AI/ML Developer | Software Developer |
                </div>
 
                <div className="my-career ">
@@ -32,14 +33,17 @@ export const Home = () => {
 
                 <div className="super-btns">
                 <button className='get-btn btn btn-primary p-2 text-center '>
-                    Hire Me 
+                  Hire Me
                     <i className="right-arrow text-center fa-solid fa-arrow-right"></i>
              </button>
 
                 <button 
                 className='download-btn btn btn-outline-primary p-2 ms-4'>
+                <a href="{myResume}" download="myResume"
+                className="download-resume-link">
                     Download Resume 
                 <i className="ms-1 fa-regular fa-file"></i>
+                </a>
                 </button>
                 <br /><br />
 
